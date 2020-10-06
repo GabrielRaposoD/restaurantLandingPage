@@ -13,10 +13,10 @@ export function Hero() {
         <h1 className='teste text-6xl font-semibold text-center text-transparent'>
           Welcome to
         </h1>
-        <p className='text-6xl font-bold text-white border-t-8 border-b-8'>
+        <p className='hover:border-primary-500 px-2 py-10 text-6xl font-bold text-white transition-all duration-1000 ease-in-out border-t-8 border-b-8 border-l-8 rounded-full cursor-pointer'>
           AKIO
         </p>
-        <button className='hover:bg-white hover:text-primary-900 hover:broder-primary-500 px-4 py-2 mt-10 text-xl font-semibold text-white transition-all duration-500 ease-in-out bg-transparent border border-white rounded-lg'>
+        <button className='hover:bg-white hover:text-primary-900 hover:broder-primary-500 px-8 py-2 mt-10 text-xl font-semibold text-white transition-all duration-500 ease-in-out bg-transparent border border-white rounded-full'>
           Look At Our Menu
         </button>
       </div>
