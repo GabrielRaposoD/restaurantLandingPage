@@ -8,11 +8,11 @@ export function Hero() {
       <div className='realative z-30 flex flex-col items-center justify-center text-white'>
         <h1 className='teste text-6xl font-semibold text-center'>
           Welcome to <br />
-          <span className='teste font-bold text-transparent border-t-4 border-b-4 cursor-pointer'>
+          <span className='teste font-bold text-transparent border-t-4 border-b-4'>
             AKIO
           </span>
         </h1>
-        <button className='hover:bg-white hover:text-transparent hover:broder-primary-500 px-4 py-2 mt-10 text-xl font-semibold text-white transition-all duration-500 ease-in-out bg-transparent border border-white rounded-lg'>
+        <button className='hover:bg-white hover:text-primary-900 hover:broder-primary-500 px-4 py-2 mt-10 text-xl font-semibold text-white transition-all duration-500 ease-in-out bg-transparent border border-white rounded-lg'>
           Look At Our Menu
         </button>
       </div>
