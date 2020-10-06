@@ -1,4 +1,4 @@
-import { FaFacebookF, FaTwitter, FaTripadvisor } from 'react-icons/fa';
+import { FaFacebookF, FaTwitter, FaTripadvisor, FaBars } from 'react-icons/fa';
 
 export function Header() {
   return (
@@ -52,14 +52,15 @@ export function Header() {
         </div>
         <div className=' flex flex-row items-center space-x-6'>
           <a href='#'>
-            <FaTripadvisor className='hover:text-primary-500 text-2xl transition-all duration-200 ease-in-out' />
+            <FaTripadvisor className='hover:text-primary-500 md:flex hidden text-2xl transition-all duration-200 ease-in-out' />
           </a>
           <a href='a'>
-            <FaFacebookF className='hover:text-primary-500 text-2xl transition-all duration-200 ease-in-out' />
+            <FaFacebookF className='hover:text-primary-500 md:flex hidden text-2xl transition-all duration-200 ease-in-out' />
           </a>
           <a href='#'>
-            <FaTwitter className='hover:text-primary-500 text-2xl transition-all duration-200 ease-in-out' />
+            <FaTwitter className='hover:text-primary-500 md:flex hidden text-2xl transition-all duration-200 ease-in-out' />
           </a>
+          <FaBars className=' md:hidden text-3xl' />
         </div>
       </div>
     </section>
